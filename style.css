@@ -1,0 +1,80 @@
+* {
+    font-family: 'Bebas Neue', cursive;
+    cursor: grab;
+}
+
+.bar1 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightblue;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.bar1 div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bar2 {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid gray;
+    color: gray;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.bar2 div {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.bar2 div:hover {
+    background-color: lightgreen;
+}
+
+.bar3 {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.bar3 div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ban3{
+    padding-top: 15px;
+}
+
+.bar4 {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    max-width: 90%;
+    margin: auto;
+}
+
+.bar4 div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ban4 {
+    padding-top: 15px;
+}
+
+.ban4 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
